@@ -21,24 +21,26 @@
     padding:  20px;
 }
 
-/* .is-hidden{
+.is-hidden{
     display: none;
-} */
-
+}
 .backdrop{
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
     bottom: 0;
-    background-color: rgba(0, 195, 255);
-    text-align: center;
+    background-color: rgba(0, 0, 0, 0.531);
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .modal{
-    
-    background-color: fff;
+    background-color: #fff;
+    width: 400px;
+    height: 300px;
+
+}
+.modal__title{
+    text-align: center;
 }
